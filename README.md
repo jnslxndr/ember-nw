@@ -69,7 +69,7 @@ This will launch the cached version of `node-webkit` with a console window opene
 
 `grunt-node-webkit-builder` makes it easy to build your for multiple target-platforms without running virtual machines. To specify for which targtes you want to build, see the `nodewebkit` config section of the `Gruntfile.js`.
 
-To build your app simply run `npm run build`. _DO NOT just run `grunt build` or `cake build`, it might cause trouble. Take a look at the `scripts` section in the `package.json` to see what `npm run build` does.
+To build your app simply run `npm run build`. _DO NOT just run `grunt build` or `cake build`_, it might cause trouble. Take a look at the `scripts` section in the `package.json` to see what `npm run build` does.
 
 The builds are put into `build/releases/<app-name> - <app-version>/<platform>`.
 
