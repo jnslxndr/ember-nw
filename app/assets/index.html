@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <script type="text/javascript">
+    if (window.nwDispatcher) {
+      window.win = require('nw.gui').Window.get();
+      window.node_require = window.require;
+      window.require = undefined;
+    }
+    window.brunch = window.brunch || {};
+    window.brunch.server = 'localhost';
+  </script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="DIGEST(styles/app.css)">
+
+
+    <script src="DIGEST(scripts/vendor.js)" defer></script>
+    <script src="DIGEST(scripts/app.js)" defer onload="require('initialize');">
+    </script>
+  </head>
+  <body>
+  </body>
+</html>

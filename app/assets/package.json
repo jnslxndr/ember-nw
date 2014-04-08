@@ -1,0 +1,24 @@
+{
+  "name": "Ember-Node-Webkit",
+  "appName": "Ember Node-Webkit",
+  "version": "0.0.0",
+  "main": "index.html",
+  "identifier": "com.exmaple.ember-nw",
+  "copyright": "The Public",
+  "window": {
+    "title": "Ember Node-Webkit",
+    "icon": "AppIcon.png",
+    "toolbar": false,
+    "frame": true,
+    "width": 960,
+    "height": 640,
+    "position": "center",
+    "min_width": 960,
+    "min_height": 640
+  },
+  "webkit": {
+    "plugin": true
+  },
+  "dependencies": {
+  }
+}
