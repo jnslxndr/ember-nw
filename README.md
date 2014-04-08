@@ -33,6 +33,7 @@ To init the project run:
 
 ```
 npm install
+cake ember:install handlebars:install
 ```
 
 to install all needed depenencies.
