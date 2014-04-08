@@ -99,8 +99,8 @@ A list of generators can be found in the [generators section](https://github.com
 
 # Thanks To
 
-* @mutewinter for building [Tapas with Ember](https://github.com/mutewinter/tapas-with-ember)
-* @Emerson for getting me to stripping down this boilerplate
+* [@mutewinter](https://github.com/mutewinter) for building [Tapas with Ember](https://github.com/mutewinter/tapas-with-ember)
+* [@Emerson](https://github.com/Emerson) for getting me to stripping down this boilerplate
 
 # Future
 
